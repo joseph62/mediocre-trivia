@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS quiz_templates (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR NOT NULL
+);

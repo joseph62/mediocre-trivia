@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mediocre-trivia"
+version = "0.1.0"
+description = ""
+authors = ["Sean Joseph <theseanjoseph@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.63.0"
+pydantic = "^1.8.1"
+SQLAlchemy = "^1.4.13"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.4b2"
+flake8 = "^3.9.1"
+mypy = "^0.812"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

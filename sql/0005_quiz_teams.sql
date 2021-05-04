@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS quiz_teams (
+    id SERIAL PRIMARY KEY,
+    quiz_id INTEGER REFERENCES quiz,
+    team_id INTEGER REFERENCES team
+);
